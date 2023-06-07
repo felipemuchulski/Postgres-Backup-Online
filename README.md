@@ -6,3 +6,7 @@ Esse repositório tem como base gerar backups online diários do banco de dados 
 
 Backup Online é conhecido como um backup que é gerado com o banco de dados ativo, digamos que temos um sistema de clientes rodando e você precisa fazer um backup. Não pode ser parado o sistema pois os clientes ficaram sem acessar a aplicação. O backuo online serve para utilizarmos a aplicação e o sistema de forma ativa e de uma forma com que não prejudique o usuário.
 No PostgreSQL serve para o sistema de arquivamento continuo, sendo assim temos que configurar o sistema para que ele pegue as informações necessárias para o backup.
+
+> Como preparar o sitema para o backup online:
+
+Tendo o conhecimento   

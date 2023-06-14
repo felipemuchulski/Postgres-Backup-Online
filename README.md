@@ -9,7 +9,7 @@ No PostgreSQL serve para o sistema de arquivamento continuo, sendo assim temos q
 
 > Como preparar o sitema para o backup online:
 
-Tendo o conhecimento que será necessário fazer o backup de forma onlie, precisamos já ter configurado para fazer o backup. Nesse caso precisamos configurar postgresql.conf para o arquivamento de WAL. Seguem as configurações principais que precisam ser alteradas:
+Tendo o conhecimento que será necessário fazer o backup de forma online, precisamos já ter configurado para fazer o backup. Nesse caso precisamos configurar postgresql.conf para o arquivamento de WAL. Seguem as configurações principais que precisam ser alteradas:
 - 'wal_level' -> recebe o valor 'replica'
 - 'archive_mode' -> recebe o valor 'on'
 - 'archive_command', 'restore_command', 'archive_cleanup_command' vão receber as configurações do seu diretório configurado.
